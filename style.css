@@ -133,8 +133,8 @@ body{
     height: 80vh;
     display: flex;
     justify-content: space-between;
-    background: rgba(0,0,0,0.5) url(./cover-011.jpg) no-repeat fixed;
-    background-position: center;
+    background: rgba(0,0,0,0.2) url(./cover-011.jpg) no-repeat fixed;
+    background-position: bottom;
     background-size: cover;
     background-blend-mode: soft-light;
 }
@@ -147,7 +147,8 @@ body{
 .cover .coverx h2{
     font-size: 2rem;
     color: #19a068;
-    color: #eb4d4b;
+    color: #1d547e;
+    color: #84193e;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
 }
@@ -156,14 +157,17 @@ body{
     margin: 10px 0;
 }
 .cover .coverx h3 span{
-    color: #22a6b3;
+    color: #84193e;
+    color: #0a8134;
+    color: #026594;
 }
 .cover .coverx h4{
     color: #277430;
     color: #8a226e;
-    color: #84193e;
     color: #1d547e;
-    color: #4cd137;
+    color: #19a068;
+    
+    color: #e61f65;
     font-family: 'Chicle', cursive;
     word-wrap: 1px;
     letter-spacing: 2px;
@@ -599,7 +603,7 @@ p{
   }
   .count-x{
     width: 100%;
-    background: rgb(0,0,0,.7);
+    background: rgb(0,0,0,.5);
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -657,8 +661,8 @@ p{
     padding: 5px 10px;
     font-size: 40px;
     display: inline-block;
-    box-shadow:.4rem .4rem 1rem #ccc,
-                -.4rem -.4rem 1rem #fff;
+    box-shadow: .4rem .4rem 1rem #ccc,
+                -.4rem -.4rem 1rem #ccc;
     color: black; 
     transition: 0.4s;
   }
@@ -708,9 +712,11 @@ p{
   .f_followx h3{
     display: inline-block;
   }
-  .FOTTER{}
-  .FOTTER p{
+  .FOTTER{
+    width: 100%;
     background-color: #000;
+  }
+  .FOTTER .container p{
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -906,4 +912,36 @@ p{
       .trst-p .count .countx h3{
         font-size: 15px;
       }
+      .foter .xfoter .f_follow h2{
+        margin-top: 30px;
+      }
+      .foter .xfoter .f_follow .link{
+        margin-bottom: 20px;
+      } 
+}
+
+
+
+.fun{
+  background-color: #fff;
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+.fun p{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-family: 'Rowdies', cursive;
+}
+.fun p span{
+  color: #00bf8f;font-family: 'Rowdies', cursive;
+}
+.fun h4{
+  text-align: center;
+  color: #b60d3a;
+  margin-top: 7px;
+  font-size: 20px;
 }
